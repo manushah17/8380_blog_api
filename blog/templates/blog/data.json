@@ -1,0 +1,222 @@
+ {
+    "headers": {
+        "_store": {
+            "access-control-allow-origin": [
+                "Access-Control-Allow-Origin",
+                "*"
+            ],
+            "cache-control": [
+                "Cache-Control",
+                "no-store"
+            ],
+            "connection": [
+                "Connection",
+                "keep-alive"
+            ],
+            "content-encoding": [
+                "Content-Encoding",
+                "gzip"
+            ],
+            "content-language": [
+                "Content-Language",
+                "en-US"
+            ],
+            "content-length": [
+                "Content-Length",
+                "579"
+            ],
+            "content-security-policy": [
+                "Content-Security-Policy",
+                "default-src 'none'"
+            ],
+            "content-type": [
+                "Content-Type",
+                "application/json"
+            ],
+            "date": [
+                "Date",
+                "Wed, 24 Oct 2018 03:32:40 GMT"
+            ],
+            "pragma": [
+                "Pragma",
+                "no-cache"
+            ],
+            "strict-transport-security": [
+                "Strict-Transport-Security",
+                "max-age=31536000;"
+            ],
+            "vary": [
+                "Vary",
+                "Accept-Encoding"
+            ],
+            "x-backside-transport": [
+                "X-Backside-Transport",
+                "OK OK"
+            ],
+            "x-content-type-options": [
+                "X-Content-Type-Options",
+                "nosniff"
+            ],
+            "x-dp-transit-id": [
+                "X-DP-Transit-ID",
+                "gateway01-1506287843"
+            ],
+            "x-dp-watson-tran-id": [
+                "X-DP-Watson-Tran-ID",
+                "gateway01-1506287843"
+            ],
+            "x-global-transaction-id": [
+                "x-global-transaction-id",
+                "7ecac92c5bcfe7d859c820e3"
+            ],
+            "x-powered-by": [
+                "X-Powered-By",
+                "Servlet/3.1"
+            ],
+            "x-service-api-version": [
+                "X-Service-Api-Version",
+                "3.5.6; 2017-09-21"
+            ],
+            "x-service-build-number": [
+                "X-Service-Build-Number",
+                "2018-10-15T17:25:53"
+            ],
+            "x-xss-protection": [
+                "X-XSS-Protection",
+                "1; mode=block"
+            ]
+        }
+    },
+    "result": {
+        "document_tone": {
+            "tones": [
+                {
+                    "score": 0.565706,
+                    "tone_id": "fear",
+                    "tone_name": "Fear"
+                },
+                {
+                    "score": 0.647322,
+                    "tone_id": "anger",
+                    "tone_name": "Anger"
+                },
+                {
+                    "score": 0.724923,
+                    "tone_id": "confident",
+                    "tone_name": "Confident"
+                }
+            ]
+        },
+        "sentences_tone": [
+            {
+                "sentence_id": 0,
+                "text": "I hate these new features On #ThisPhone after the update.",
+                "tones": [
+                    {
+                        "score": 0.637279,
+                        "tone_id": "anger",
+                        "tone_name": "Anger"
+                    }
+                ]
+            },
+            {
+                "sentence_id": 1,
+                "text": "I hate #ThisPhoneCompany products, you'd have to torture me to get me to use #ThisPhone.",
+                "tones": [
+                    {
+                        "score": 0.591225,
+                        "tone_id": "anger",
+                        "tone_name": "Anger"
+                    },
+                    {
+                        "score": 0.560098,
+                        "tone_id": "analytical",
+                        "tone_name": "Analytical"
+                    },
+                    {
+                        "score": 0.645985,
+                        "tone_id": "confident",
+                        "tone_name": "Confident"
+                    }
+                ]
+            },
+            {
+                "sentence_id": 2,
+                "text": "The emojis in #ThisPhone are stupid.",
+                "tones": [
+                    {
+                        "score": 0.760538,
+                        "tone_id": "anger",
+                        "tone_name": "Anger"
+                    }
+                ]
+            },
+            {
+                "sentence_id": 3,
+                "text": "#ThisPhone is a useless, stupid waste of money.",
+                "tones": [
+                    {
+                        "score": 0.810585,
+                        "tone_id": "anger",
+                        "tone_name": "Anger"
+                    }
+                ]
+            },
+            {
+                "sentence_id": 4,
+                "text": "#ThisPhone is the worst phone I've ever had - ever \ud83d\ude20.",
+                "tones": [
+                    {
+                        "score": 0.517921,
+                        "tone_id": "anger",
+                        "tone_name": "Anger"
+                    },
+                    {
+                        "score": 0.874372,
+                        "tone_id": "confident",
+                        "tone_name": "Confident"
+                    }
+                ]
+            },
+            {
+                "sentence_id": 5,
+                "text": "#ThisPhone another ripoff, lost all respect SHAME.",
+                "tones": [
+                    {
+                        "score": 0.92125,
+                        "tone_id": "confident",
+                        "tone_name": "Confident"
+                    }
+                ]
+            },
+            {
+                "sentence_id": 6,
+                "text": "I'm worried my #ThisPhone is going to overheat like my brother's did.",
+                "tones": [
+                    {
+                        "score": 0.749632,
+                        "tone_id": "fear",
+                        "tone_name": "Fear"
+                    }
+                ]
+            },
+            {
+                "sentence_id": 7,
+                "text": "#ThisPhoneCompany really let me down... my new phone won't even turn on.",
+                "tones": [
+                    {
+                        "score": 0.75152,
+                        "tone_id": "tentative",
+                        "tone_name": "Tentative"
+                    },
+                    {
+                        "score": 0.672469,
+                        "tone_id": "analytical",
+                        "tone_name": "Analytical"
+                    }
+                ]
+            }
+        ]
+    },
+    "status_code": 200
+}
